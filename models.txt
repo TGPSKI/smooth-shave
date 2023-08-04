@@ -1,0 +1,3 @@
+airoboros-l2-13b-gpt4-m2.0-GGML/airoboros-l2-13b-gpt4-m2.0.ggmlv3.q4_0.bin
+NewHope-GGML/newhope.ggmlv3.q2_K.bin
+CodeUp-Llama-2-13B-Chat-HF-GGML/codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
