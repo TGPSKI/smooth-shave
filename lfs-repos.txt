@@ -1,3 +1,1 @@
 https://huggingface.co/TheBloke/airoboros-l2-13b-gpt4-m2.0-GGML
-https://huggingface.co/TheBloke/NewHope-GGML
-https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
