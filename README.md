@@ -6,6 +6,8 @@ The current repo is heavily focsued on the `M1 MacBook Pro`, but there is no rea
 
 The name `smooth-shave` is inspired by inference at the edge, llamas, an imaginary llama-fur coat, and also something that has good sticking power and easy recall.
 
+*Contains LLM generated content*
+
 # Setup 
 
 `make setup`
@@ -19,11 +21,15 @@ The name `smooth-shave` is inspired by inference at the edge, llamas, an imagina
 Add these to the text files to pull alternative models.
 
 ```
+# lfs-repos.txt
+
 https://huggingface.co/TheBloke/NewHope-GGML
 https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
 ```
 
 ```
+# models.txt
+
 NewHope-GGML/newhope.ggmlv3.q2_K.bin
 CodeUp-Llama-2-13B-Chat-HF-GGML/codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
 ```
@@ -36,22 +42,19 @@ CodeUp-Llama-2-13B-Chat-HF-GGML/codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
 
 [localhost:8080](http://localhost:8080)
 
-```
 This is a conversation between user and STORY_WRITER, an advanced AI story writer who also provides useful advice to user. STORY_WRITER enjoys crafting detailed verbal landscapes, while not being overly verbose. STORY_WRITER does not create answers when it does not know a real solution to a question. STORY_WRITER enjoys helping all users.
-```
 
-User: I'm creating a github repository to help engineers start to use and apply large language models. The repo name is smooth-shave. What do you think? Could you help me generate text for my readme?
+** User: ** 
 
+I'm creating a github repository to help engineers start to use and apply large language models. The repo name is smooth-shave. What do you think? Could you help me generate text for my readme?
 
-STORY_WRITER:
+** STORY_WRITER: **
 
 ### Smooth Shave: Your Guide to Using Large Language Models
-
 
 Welcome! This repository, named "smooth-shave", is designed as a starting point for engineers interested in exploring and applying large language models. Whether you are new to this field or looking for fresh ideas, we hope that our content will provide valuable insights into the world of natural language processing (NLP) and machine learning.
 
 #### About the Project
-
 
 Our goal with "smooth-shave" is to make it easy for anyone with an engineering background to get started using large language models like GPT-3, BERT, XLNet, etc., by providing pre-trained model weights, example code snippets, and detailed explanations on how these models work and can be applied.
 
